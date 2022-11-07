@@ -1,40 +1,70 @@
-**FRAMEWORKS 1**
+# Getting Started with Create React App
 
-# The Tulip opgave
-### **Opgaven indeholder følgende filer:**
-- en figma fil (i assets mappen)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### **Opgavebeskrivelse**
-- Brug create-react-app til at installere en react applikation
-  (BENSPÆND: Mappen skal være tom, når du laver en create-react-app, så du må lige flytte de filer som følger med opgaven ud af mappen.)
-- du kan bruge `npx create-react-app .` til at oprette en react app i den mappe du allerede står i uden at oprette en ny mappe.
-- Du skal bruge det udleverede api til at hente data fra.
-- du skal bygge hele løsningen i react.
-- husk at lave en branch til dit arbejde
+## Available Scripts
 
-### **Kravspecifikation**
-- hero skal fylde hele bredden på skærmen
-- det øvrige indhold centreres på skærmen i en bredde på 1120px
+In the project directory, you can run:
 
-### **Mål**
-- Formålet med opgaven er at træne:
-  1. Brugen af hooks (useState og useEffect)
-  2. at opdele din kode i komponenter.
-  3. at skelne mellem komponent-typer (state-full og state-less)
-  
-### **Ekstraopgaver hvis du er hurtigt færdig**
-  1. opret et "bookings" endpoint på api'et og gem data i api'et hvis man laver trykker "book now" i formularen.
-  2. prøv om du kan finde et kompnent på npm som laver en slider, og byt galleriet ud med denne.
+### `npm start`
 
-### **Aflevering**
-- Commit og push ofte
-- Tænk over dine commit-beskeder. Din commit historik må gerne afspejle udviklingen i dit projekt med små beskrivelser. 
-- aflevér når dagen er gået ved at lave en pull-request.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### **Feedback**: 
-Din lærer kigger dit pull-request igennem, og hvis du blot får et godkendt/approved tilbage betyder det, at du har løst opgaven ligesom det var forventet. 
+### `npm test`
 
-Hvis din lærer sender et godkendt/approved tilbage, men også tilknytter en kommentar, er det måske for at gøre opmærksom på en detalje du let kan forbedre. Du behøver ikke at lave en ny pull request.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Hvis du får en anmodning tilbage fra din lærer om at udføre ændringer, skal du implementere ændringerne/løse problemet og lave en ny pull-request. 
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
